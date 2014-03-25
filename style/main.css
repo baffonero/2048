@@ -557,6 +557,7 @@ hr {
 
 .above-game:after {
   content: "";
+  margin-top: 10;
   display: block;
   clear: both; }
 
