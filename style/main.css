@@ -598,7 +598,7 @@ hr {
     padding: 0 20px; }
 
   h1.title {
-    font-size: 80px;
+    font-size: 35px;
     margin-top: 15px; }
 
   .container {
@@ -607,6 +607,7 @@ hr {
 
   .score-container, .best-container {
     margin-top: 0;
+    margin-bottom: 15;
     padding: 15px 10px;
     min-width: 40px; }
 
