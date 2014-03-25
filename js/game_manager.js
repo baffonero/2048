@@ -37,7 +37,7 @@ GameManager.prototype.isGameTerminated = function () {
 
 // Set up the game
 GameManager.prototype.setup = function () {
-  alert("ECCOLO - 1");
+
   var previousState = this.storageManager.getGameState();
 
   // Reload the game from a previous game if present
@@ -134,7 +134,6 @@ GameManager.prototype.moveTile = function (tile, cell) {
 // Move tiles on the grid in the specified direction
 GameManager.prototype.move = function (direction) {
   // 0: up, 1: right, 2: down, 3: left
-  alert("cambiato-1");
   var self = this;
 
   if (this.isGameTerminated()) return; // Don't do anything if the game's over
